@@ -92,4 +92,26 @@ c:\MyApp> now secrets ls
 c:\MyApp> now secret remove secretName
 ```
 
-## How to 
+## How to see the list of sites or deployments
+
+This command show the list of deployments and the associated sites
+
+```cmd
+now ls
+```
+
+## How to remove a site with `now` cli
+
+You need to get the `id` of your deployment that you want to delete or remove
+
+```cmd
+now rm id-of-the-site
+```
+
+or
+
+```cmd
+now remove id-of-the-site
+```
+
+More documentation: [how to remove deployments](https://zeit.co/blog/now-rm-is-here-and-more)
